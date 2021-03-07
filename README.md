@@ -37,25 +37,25 @@ The following observations were noted from the 3 datasets:
 
 a.	Using the Clinical Dementia Rating (CDR) as the response variable classes, it was noted that the Mini-mental state examination scores and Normalized whole brain volume values decreased as the severity of Alzheimer’s disease increased.
 
-[MMSE Scores]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/MMSE%20boxplot.png)
+![MMSE Scores]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/MMSE%20boxplot.png)
 
-[nWBV]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/nWBV%20boxplot.png)
+![nWBV]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/nWBV%20boxplot.png)
 
 b.	Using the Group feature as the response variable classes, it was noted that the Mini-mental state examination scores were significantly different between the Non-demented group and Demented or Converted groups. There was also a difference between Demented and Converted groups. In addition, there were significant differences in nWBV between the Non-demented group and Demented or Converted groups.
 
-[MMSE Scores]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/MMSE%20graph.png)
+![MMSE Scores]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/MMSE%20graph.png)
 
-[nWBV]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/nWBV%20graph.png)
+![nWBV]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/nWBV%20graph.png)
 
 c.	From the MRI image dataset, the average image was determined for each class (see below). In addition, Principal Component Analysis was performed to find the images that best represented each class (see Final Report).
 
-[Average Non-demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/non_mean.png)
+![Average Non-demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/non_mean.png)
 
-[Average Very Mild demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/verymild_mean.png)
-[Average Mild demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/mild_mean.png)
+![Average Very Mild demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/verymild_mean.png)
 
+![Average Mild demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/mild_mean.png)
 
-[Average Moderate demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/moderate_mean.png)
+![Average Moderate demented]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/moderate_mean.png)
 
 
 ## Modeling
@@ -69,15 +69,15 @@ Four different models were tested for the Cross-sectional (a) study and Longitud
 The Model Metrics for each study are given below:
 
 
-[Cross-sectional Study](https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/A%20model%20metrics.png)
+![Cross-sectional Study](https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Cross%20sectional%20study/A%20model%20metrics.png)
 
-[Longitudinal Study]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/B%20model%20metrics.png)
+![Longitudinal Study]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Longitudinal%20study/B%20model%20metrics.png)
 
 From these metrics the KNN model was recommended for the Cross-sectional study, and the One vs Rest (MLP) model was recommended for the Longitudinal study.
 
 One model (Convolutional Neural Network Model) was tested for the imaging dataset. The metrics of this model are given below.
 
-[Imaging Study]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/C%20model%20metrics.png)
+![Imaging Study]( https://github.com/ballard-s/Springboard_Capstone_3/blob/main/Figures/Imaging%20study/C%20model%20metrics.png)
 
 
 ## Identifying features of importance that influence Cross-sectional and Longitudinal studies
