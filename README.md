@@ -105,4 +105,3 @@ Xception and ResNet50
 
 * provide physician’s, researchers, and patients with predictions of Alzheimer’s Disease and classification of the stage of Alzheimer’s Disease
 * academic or pharmaceutical researchers could utilize image analyses to determine in their drug/treatment of interest can slow the progression of Alzheimer’s disease using MRI images as their experimental output
-![image](https://user-images.githubusercontent.com/51376836/110250983-58dc3280-7f4c-11eb-9775-5c274ba526f7.png)
